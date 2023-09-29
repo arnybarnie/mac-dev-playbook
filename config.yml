@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
+  - tailscale
 
 homebrew_taps:
   - homebrew/core
@@ -87,7 +88,15 @@ homebrew_cask_apps:
   # - slack
   - sublime-text
   # - transmit
+  # Arn's personal apps
   - visual-studio-code
+  - raycast
+  - lens
+  - postman
+  - leapp
+  - dozer
+  
+  
 
 # oh my zsh
 antigen_install_oh_my_zsh: yes
